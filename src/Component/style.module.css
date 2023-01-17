@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(26, 25, 25);
+    color: hotpink;
+   
+    
+}
+.navbar Link{
+  
+
+   
+}
+.uls {
+    display: flex;
+   margin-top: 10px;
+     margin-right: 80px; 
+    float:right;
+    text-indent: 50px;
+   
+
+   
+}
+.Contacts{
+    background: pink;
+    margin-top: 100px;
+    border-radius:  solid 2px;
+}
+.home{
+    background: rgb(196, 48, 48);
+    color: white;
+   
+  
+}
+/* .leb{
+    height: 2vh;
+    width: 40%;
+   float: right;
+   background: pink;
+   margin-right: 20px;
+} */
+
+
+* {box-sizing:border-box}
+
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+  margin-top: 10px;
+  /* margin-left: 100px; */
+  margin-right: 100px;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 100px; 
+  padding-bottom: 100px; 
+  color: white; 
+}
+
+.form{
+ margin-top: 100px;
+
+}
+.btn{
+  padding:10px;
+  font-size: 20px;
+  border-radius:  10px;
+  background-color: white;
+  color: black;
+  
+}
+.terms{
+  font-size: 20px;
+}
+.first{
+  padding: 10px;
+  width: 30%;
+  background: #ddd;
+}
+.intro{
+  font-size: 40px;
+  margin-right: 300px;
+ font-style: oblique;
+}
+.imge {
+  margin-right: 600px;
+  border-radius: 8px;
+  width: 150px;
+ 
+  
+}
+
+.intros{
+  margin-top: 200px;
+  
+
+}
+.lorem{
+  margin-left: 300px;
+  padding: 10px;
+/* text-indent: 15em; */
+
+}
+.both{
+/* width: 200px;
+float:right; */
+/* /* width: 200px;
+height: 40vh; */
+/* margin-top: 200px;
+margin-right: 100px; */ 
+/* width: 200px;
+height: 50vh;
+margin-top: 200px; */
+
+}
+.Aboutme{
+  margin-right: 500px;
+ font-style: oblique;
+ margin-top: 200px;
+ margin-left: 100px; 
+} 
+.profe{
+
+/* margin-left: 500px; */
+
+height: 45vh;
+width: 300px;
+float: right;
+margin-right: 350px;
+
+
+}
