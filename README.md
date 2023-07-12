@@ -12,6 +12,8 @@ Using React JS and CSS, I created a website that showcases my work and skills.
 
 Created multiple routes and implemented navigation between different views of the application using React Router's  and components.
 
+The portfolio also includes an 'about-me' section, some of my skills I've learned and also links to my resume.
+
 # Text Tech used:
 
 ReactJS
