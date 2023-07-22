@@ -8,8 +8,7 @@ class Contact extends Component{
   state={
          firstname:"",
          lastname:"",
-        //  check:"false",
-        //  selects:"false",
+       
          emails:"",
          numbers:"",
          textarea:""
@@ -34,16 +33,7 @@ class Contact extends Component{
 
  submitform=(event)=>{
      event.preventDefault();
-    // emailjs.sendForm()
-    //  console.log({
-    //      fname:this.state.firstname,
-    //      lname:this.state.lastname,
-    //      checkss:this.state.check,
-    //      select:this.state.selects,
-    //      emali:this.state.emails,
-    //      number:this.state.numbers,
-    //      text:this.state.textare,
-    //  })
+    
      this.setState({
       firstname:"",
       lastname:"",
@@ -144,14 +134,7 @@ handleSubmit=(event)=> {
       
       
         <textarea id="maessage" rows='8' cols='55' className={styles.texts} placeholder='HOW CAN I HELP YOU?' onChange={this.eventtext} required ></textarea>
-        {/* <select  value={this.state.selects} onChange={this.handleselect}>
-         <option>select option</option>
-         <option>b.tech</option>
-         <option>m.tech</option>
-         <option>Ece</option>
-         
-         </select>
-         */}
+        
         <br/>
         {/* <br />
       <input type="checkbox" value={this.state.check} onClick={this.handlecheck}/><span className={styles.terms}> Accept terms & condition</span>
